@@ -1,5 +1,5 @@
 header {
-	background: #1E90FF;
+	background: #6495ED;
 	padding: 20px 50px;
 
 
@@ -36,42 +36,44 @@ nav a {
 	height: 700px;
 }
 
-.caixa2{
+.ola{
 	font-size: 50px;
-	position: relative;
-	top: -610px;
+	position: absolute;
+	top: 202px;
 	left: 44px;
 	color: #FFFFFF;
 
 }
 
-.caixa2a{
+.w4{
 	font-size: 50px;
-	position: relative;
-	top: -660px;
+	position: absolute;
+	top: 202px;
 	left: 402px;
 	color: #1E90FF;
 
 }
 
-.caixa3{
+.nuvem{
 	font-size: 30px;
-	position: relative;
-	top: -650px;
+	position: absolute;
+	top: 260px;
 	left: 78px;
 	color: #FFFFFF;
 
 }
 
 .principal{
-	background: #9370DB;
+	background: #00BFFF;
 }
 
 .subTitulo{
+	padding-top: 3.0rem;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	font-weight: bold;
 }
 
 .circuito{
@@ -83,11 +85,144 @@ nav a {
 
 .texto-principal {
 	color: #FFFFFF;
+	font-size: 1.4rem;
+
+}
+
+.img-azure{
+	width: 100%;
+	position: relative;
+
+}
+
+.img-c{
+	position: absolute;
+	top: 1750px;
+	right: 950px;
+
+}
+
+.conteudo-manifesto{
+	position: absolute;
+	top: 1825px;
+	right: 400px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 60px;
+	margin: 0 0 1em;
+
+}
+
+.texto-manifesto p {
+	padding-top: 1.0rem;
+	text-align: left;
+	width: 50%;
+	font-size: 30px;
+	color: #FFFFFF;
+	margin: 0 0 1em;
+	position: relative;
+	left: 350px;
+	
+
+}
+.comentario{
+	padding: 10rem 0 5rem;
+	background: #FF4500;
+	font-size: 25px;
+	position: relative;
+}
+
+.ronaldo{
+	position: relative;
+	width: 180px;
+	display: inline;
+	float: left;
+	margin: 20px 20px 20px 20px;
+	background: #FF4500;
+	left: 210px;
+	top: -55px;
+
+
+}
+
+.paragrafo{
+	color: #FFFFFF;
+	position: absolute;
+	text-align: left;
+	top: 190px;
+	left: 420px;
+}
+
+.ass{
+	color: #FFFFFF;
+	position: absolute;
+	top: 280px;
+	left: 410px;
+	font-size: 15px;
+}
+
+.business {
+	width: 100%;
+	clear: left;
+}
+
+.speak{
+	color: #FFFFFF;
+	font-size: 25px;
+	position: relative;
+	top: 270px;
+	left: -140px;
+	font-weight: bold;
+
+}
+
+footer {
+	background: black;
+	padding: 40px 0;
+
+}
+
+.img-aa{
+	float: left;
+	width: 200px;
+}
+
+.serviços{
+	position: relative;
+	width: 50%;
+	top: 0px;
+	left: 100px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 20px;
+
+}
+
+
+.endereços{
+	position: relative;
+	width: 90%;
+	top: 10px;
+	padding-right: 100px;
+	text-align: right;
+	color: #FFFFFF;
+	line-height: 20px;
+
+}
+
+.nosso-end{
+	font-weight: bold;
 	font-size: 20px;
 }
 
-.img-rede{
-	width: 100%;
+.copyright {
+	margin: 30px 0 ;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
 	
 
 
