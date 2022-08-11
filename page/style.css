@@ -194,8 +194,17 @@ footer {
 	color: #FFFFFF;
 }
 
+.dados{
+	color: #FFFFFF;
+}
+
+.datacenter{
+	font-weight: bold;
+}
+
 .serviços{
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	font-weight: bold;
 
 }
 
