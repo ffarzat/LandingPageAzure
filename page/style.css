@@ -177,36 +177,32 @@ nav a {
 }
 
 footer {
-	background: black;
+	background: #00008B;
 	padding: 40px 0;
 
 }
 
-.img-aa{
-	float: left;
-	width: 200px;
+.container{
+	display: flex;
+}
+
+.logo-rodape{
+	width: 150px;
+}
+
+.frase{
+	color: #FFFFFF;
 }
 
 .serviços{
-	position: relative;
-	width: 50%;
-	top: 0px;
-	left: 100px;
-	color: #FFFFFF;
-	text-align: center;
-	line-height: 20px;
+	color: #FFFFFF;	
 
 }
 
 
 .endereços{
-	position: relative;
-	width: 90%;
-	top: 10px;
-	padding-right: 100px;
-	text-align: right;
 	color: #FFFFFF;
-	line-height: 20px;
+	
 
 }
 
