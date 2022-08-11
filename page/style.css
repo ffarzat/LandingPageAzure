@@ -184,6 +184,8 @@ footer {
 
 .container{
 	display: flex;
+	justify-content: space-around;
+	color: #FFFFFF;
 }
 
 .logo-rodape{
@@ -191,29 +193,20 @@ footer {
 }
 
 .frase{
-	color: #FFFFFF;
-}
-
-.dados{
-	color: #FFFFFF;
+	
 }
 
 .datacenter{
 	font-weight: bold;
+	font-size: 20px;
 }
 
 .serviços{
-	color: #FFFFFF;
 	font-weight: bold;
+	font-size: 20px;
 
 }
 
-
-.endereços{
-	color: #FFFFFF;
-	
-
-}
 
 .nosso-end{
 	font-weight: bold;
