@@ -119,9 +119,9 @@ nav a {
 	width: 50%;
 	font-size: 30px;
 	color: #FFFFFF;
-	margin: 0 0 1em;
 	position: relative;
 	left: 350px;
+
 	
 
 }
@@ -136,8 +136,7 @@ nav a {
 	position: relative;
 	width: 180px;
 	display: inline;
-	float: left;
-	margin: 20px 20px 20px 20px;
+	float: left;	
 	background: #FF4500;
 	left: 210px;
 	top: -55px;
@@ -149,14 +148,20 @@ nav a {
 	color: #FFFFFF;
 	position: absolute;
 	text-align: left;
-	top: 190px;
+	top: 150px;
 	left: 420px;
+}
+
+.strong{
+	color: #00BFFF;
+	font-weight: bold;
+
 }
 
 .ass{
 	color: #FFFFFF;
 	position: absolute;
-	top: 280px;
+	top: 240px;
 	left: 410px;
 	font-size: 15px;
 }
@@ -174,6 +179,22 @@ nav a {
 	left: -140px;
 	font-weight: bold;
 
+}
+
+.fale-conosco{
+	color: #FFFFFF;
+	position: relative;
+	top: 300px;
+	background: #FF4500;
+	border-radius: 1rem;
+	padding: 0.2rem 1.2rem;
+	opacity: 0.6;
+    transition: opacity 0.2s;
+    text-decoration: none;
+}
+
+.fale-conosco:hover{
+	opacity: 1;
 }
 
 footer {
