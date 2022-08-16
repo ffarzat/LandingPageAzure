@@ -1,0 +1,249 @@
+header {
+	background: #6495ED;
+	padding: 20px 50px;
+
+
+}
+
+.caixa {
+	position: relative;
+	width: 90%;
+	margin: auto;
+
+}
+
+nav {
+	position: absolute;
+	top: 33px;
+	right: 0;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+}
+
+nav a {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.imgprincipal{
+	width: 100%;
+	height: 700px;
+}
+
+.ola{
+	font-size: 50px;
+	position: absolute;
+	top: 202px;
+	left: 44px;
+	color: #FFFFFF;
+
+}
+
+.w4{
+	font-size: 50px;
+	position: absolute;
+	top: 202px;
+	left: 402px;
+	color: #1E90FF;
+
+}
+
+.nuvem{
+	font-size: 30px;
+	position: absolute;
+	top: 260px;
+	left: 78px;
+	color: #FFFFFF;
+
+}
+
+.principal{
+	background: #00BFFF;
+}
+
+.subTitulo{
+	padding-top: 3.0rem;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	font-weight: bold;
+}
+
+.circuito{
+	width: 400px;
+	float: left;
+	margin: 0 20px 20px 0;
+
+}
+
+.texto-principal {
+	color: #FFFFFF;
+	font-size: 1.4rem;
+
+}
+
+.img-azure{
+	width: 100%;
+	position: relative;
+
+}
+
+.img-c{
+	position: absolute;
+	top: 1750px;
+	right: 950px;
+
+}
+
+.conteudo-manifesto{
+	position: absolute;
+	top: 1825px;
+	right: 400px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 60px;
+	margin: 0 0 1em;
+
+}
+
+.texto-manifesto p {
+	padding-top: 1.0rem;
+	text-align: left;
+	width: 50%;
+	font-size: 30px;
+	color: #FFFFFF;
+	position: relative;
+	left: 350px;
+
+	
+
+}
+.comentario{
+	padding: 10rem 0 5rem;
+	background: #FF4500;
+	font-size: 25px;
+	position: relative;
+}
+
+.ronaldo{
+	position: relative;
+	width: 180px;
+	display: inline;
+	float: left;	
+	background: #FF4500;
+	left: 210px;
+	top: -55px;
+
+
+}
+
+.paragrafo{
+	color: #FFFFFF;
+	position: absolute;
+	text-align: left;
+	top: 150px;
+	left: 420px;
+}
+
+.strong{
+	color: #00BFFF;
+	font-weight: bold;
+
+}
+
+.ass{
+	color: #FFFFFF;
+	position: absolute;
+	top: 240px;
+	left: 410px;
+	font-size: 15px;
+}
+
+.business {
+	width: 100%;
+	clear: left;
+}
+
+.speak{
+	color: #FFFFFF;
+	font-size: 25px;
+	position: relative;
+	top: 270px;
+	left: -140px;
+	font-weight: bold;
+
+}
+
+.fale-conosco{
+	color: #FFFFFF;
+	position: relative;
+	top: 300px;
+	background: #FF4500;
+	border-radius: 1rem;
+	padding: 0.2rem 1.2rem;
+	opacity: 0.6;
+    transition: opacity 0.2s;
+    text-decoration: none;
+}
+
+.fale-conosco:hover{
+	opacity: 1;
+}
+
+footer {
+	background: #00008B;
+	padding: 40px 0;
+
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	color: #FFFFFF;
+}
+
+.logo-rodape{
+	width: 150px;
+}
+
+.frase{
+	
+}
+
+.datacenter{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.serviços{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+
+.nosso-end{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.copyright {
+	margin: 30px 0 ;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+	
+
+
+
+
