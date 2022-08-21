@@ -86,30 +86,21 @@ nav a {
 .texto-principal {
 	color: #FFFFFF;
 	font-size: 1.4rem;
+	padding-bottom: 80px;
 
 }
 
-.img-azure{
-	width: 100%;
-	position: relative;
-
-}
-
-.img-c{
-	position: absolute;
-	top: 1750px;
-	right: 950px;
-
+.container2{
+	display: flex;
+	justify-content: center;	
+	
 }
 
 .conteudo-manifesto{
-	position: absolute;
-	top: 1825px;
-	right: 400px;
+	font-weight: bold;
 	color: #FFFFFF;
-	text-align: center;
 	font-size: 60px;
-	margin: 0 0 1em;
+	align-self: center;	
 
 }
 
@@ -203,7 +194,7 @@ footer {
 
 }
 
-.container{
+.container5{
 	display: flex;
 	justify-content: space-around;
 	color: #FFFFFF;
