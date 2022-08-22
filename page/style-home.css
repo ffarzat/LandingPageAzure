@@ -104,18 +104,26 @@ nav a {
 
 }
 
-.texto-manifesto p {
-	padding-top: 1.0rem;
-	text-align: left;
-	width: 50%;
-	font-size: 30px;
-	color: #FFFFFF;
-	position: relative;
-	left: 350px;
-
-	
+.container3{	
+	display: flex;
+	justify-content: center;	
 
 }
+
+.strong{
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+
+.texto-manifesto{
+	color: #FFFFFF;
+	font-size: 1.4rem;
+
+}
+
+
 .comentario{
 	padding: 10rem 0 5rem;
 	background: #FF4500;
@@ -143,7 +151,7 @@ nav a {
 	left: 420px;
 }
 
-.strong{
+.strong1{
 	color: #00BFFF;
 	font-weight: bold;
 
