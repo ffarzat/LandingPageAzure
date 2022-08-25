@@ -64,7 +64,7 @@ nav a {
 }
 
 .principal{
-	background: #6495ED;
+	background: linear-gradient(#6495ED 40%, #FF4500);
 }
 
 .subTitulo{
@@ -77,7 +77,7 @@ nav a {
 }
 
 .circuito{
-	width: 400px;
+	width: 300px;
 	float: left;
 	margin: 0 20px 20px 0;
 
@@ -123,54 +123,49 @@ nav a {
 
 }
 
+.container4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-.comentario{
-	padding: 10rem 0 5rem;
-	background: #FF4500;
-	font-size: 25px;
-	position: relative;
+
 }
 
 .ronaldo{
-	position: relative;
-	width: 180px;
-	display: inline;
-	float: left;	
-	background: #FF4500;
-	left: 210px;
-	top: -55px;
-
-
+	width: 200px;
 }
 
 .paragrafo{
+	position: relative;
+	top: -40px;
+	margin-left: 30px;
+	align-items: center;
+	padding: 10rem 0 5rem;
+	font-size: 1.4rem;
 	color: #FFFFFF;
-	position: absolute;
-	text-align: left;
-	top: 150px;
-	left: 420px;
+	
 }
 
 .strong1{
-	color: #00BFFF;
+	color: #732269;
 	font-weight: bold;
 
 }
 
 .ass{
-	color: #FFFFFF;
-	position: absolute;
-	top: 240px;
-	left: 410px;
 	font-size: 15px;
 }
 
-.business {
-	width: 100%;
-	clear: left;
+.fale{
+	background-size: cover !important;
+	padding: 300px;
+	background-image: url(
+		https://w4it.com.br/wp-content/uploads/2020/11/AdobeStock_309208608_Editorial_Use_Only.jpg);
 }
 
+
 .speak{
+	display: flex;
 	color: #FFFFFF;
 	font-size: 25px;
 	position: relative;
