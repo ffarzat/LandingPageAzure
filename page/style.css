@@ -77,7 +77,7 @@ form input{
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
-	width: 50%;
+	width: 40%;
 }
 
 .enviar{
@@ -131,4 +131,14 @@ footer {
 	margin: 30px 0 ;
 	text-align: center;
 	color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px){
+	.caixa1{
+		width: auto;
+	}
+	form input{
+		width: 35%;
+		margin: 0 0 10px;
+	}
 }
