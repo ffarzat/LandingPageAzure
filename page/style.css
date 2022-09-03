@@ -32,9 +32,22 @@ nav a {
 }
 
 .caixa1{
-	height: 500px;
+	height: 600px;
 	background-size: cover !important;
 	background-image: url(	https://img.freepik.com/fotos-premium/fale-conosco…e-para-o-suporte-ao-cliente_36325-1640.jpg?w=2000);
+}
+
+.title{
+	color: #FFFFFF;
+	height: 80vh;
+	width: 100%;
+	font-size: 3rem;
+	font-weight: 700;
+	display: flex;
+ 	align-items: center;
+ 	position: relative;
+ 	left: 10px;
+
 }
 
 .contato{
@@ -57,6 +70,7 @@ form label {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
+	font-weight: 700;
 }
 
 form input{
@@ -64,14 +78,17 @@ form input{
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
-
 }
 
-
-
-
-
-
+.enviar{
+	color: #FFFFFF;
+	background-color: #00008B;
+	padding: 15px 50px 15px 50px;
+	border-radius: 50px 50px 50px 50px;
+	font-size: 18px;
+	font-weight: 700;
+	width: 20%;
+}
 
 footer {
 	background: #00008B;
