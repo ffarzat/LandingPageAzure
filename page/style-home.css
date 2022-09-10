@@ -5,11 +5,29 @@ header {
 
 }
 
+.botao{
+	display: none;
+}
+
+.menulateral{
+	display: none;
+}
+
 .caixa {
 	position: relative;
 	width: 90%;
 	margin: auto;
 
+}
+
+input[type="checkbox"]{
+	display: none;
+
+}
+
+.hamburguer {
+	height: 60px;
+	position: absolute;
 }
 
 nav {
@@ -236,11 +254,53 @@ footer {
 	color: #FFFFFF;
 }
 
-@media screen and (max-width: 480px){
+@media (max-width: 900px){
+	nav{
+		display: none;
+	}
+
+	.li{
+		list-style: none;
+	}
+
+	a {
+		font-weight: bold;
+		text-decoration: none;		
+		display: block;
+		padding: 30px 5px;
+		color: #FFFFFF;
+		
+	}
+
+	a:hover{		
+		background: #6495ED;
+	}
+
+	input[type="checkbox"]:checked ~ .menulateral{
+		transform: translateX(440px);
+	}
+
+	.menulateral{
+		position: absolute;
+		width: 350px;
+		display: flex;
+		flex-direction: column;
+		left: -440px;
+
+	}
+	 
+	.logo{
+		display: flex;
+		justify-content: right;
+	}
+
+	.botao{
+		display: flex;
+		justify-content: left;
+	}
+
 	
 }
-
-
 	
 
 
