@@ -1,15 +1,30 @@
 header {
 	background: #6495ED;
 	padding: 20px 50px;
+}
 
+.botao{
+	display: none;
+}
 
+.menulateral{
+	display: none;
 }
 
 .caixa {
 	position: relative;
 	width: 90%;
 	margin: auto;
+}
 
+input[type="checkbox"]{
+	display: none;
+
+}
+
+.hamburguer {
+	height: 60px;
+	position: absolute;
 }
 
 nav {
@@ -32,6 +47,7 @@ nav a {
 }
 
 .caixa1{
+	width: 100%;
 	height: 600px;
 	background-size: cover !important;
 	background-image: url(	https://img.freepik.com/fotos-premium/fale-conosco…e-para-o-suporte-ao-cliente_36325-1640.jpg?w=2000);
@@ -58,12 +74,17 @@ nav a {
 }
 
 main {
-	width: 940px;
+	width: 100%;
 	margin: 0 auto;
 }
 
+.preencher{
+	margin-left: 20px;
+}
+
 form {
-	margin: 40px;
+	height: 500px;
+	background: #FFFFFF;
 }
 
 form label {
@@ -100,15 +121,13 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	color: #FFFFFF;
+	
 }
 
 .logo-rodape{
 	width: 150px;
 }
 
-.frase{
-	
-}
 
 .datacenter{
 	font-weight: bold;
@@ -133,12 +152,49 @@ footer {
 	color: #FFFFFF;
 }
 
-@media screen and (max-width: 480px){
-	.caixa1{
-		width: auto;
+@media (max-width: 900px){
+	nav{
+		display: none;
 	}
-	form input{
-		width: 35%;
-		margin: 0 0 10px;
+
+	.li{
+		list-style: none;
 	}
+
+	a {
+		font-weight: bold;
+		text-decoration: none;		
+		display: block;
+		padding: 30px 5px;
+		color: #FFFFFF;
+		
+	}
+
+	a:hover{		
+		background: #6495ED;
+	}
+
+	input[type="checkbox"]:checked ~ .menulateral{
+		transform: translateX(440px);
+	}
+
+	.menulateral{
+		position: absolute;
+		width: 350px;
+		display: flex;
+		flex-direction: column;
+		left: -440px;
+
+	}
+	 
+	.logo{
+		display: flex;
+		justify-content: right;
+	}
+
+	.botao{
+		display: flex;
+		justify-content: left;
+	}
+
 }
