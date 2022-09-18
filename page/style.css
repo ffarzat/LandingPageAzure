@@ -165,12 +165,12 @@ footer {
 		text-decoration: none;		
 		display: block;
 		padding: 30px 5px;
-		color: #FFFFFF;
-		
+		color:  #6495ED;
+
 	}
 
 	a:hover{		
-		background: #6495ED;
+		background: #FFFFFF;
 	}
 
 	input[type="checkbox"]:checked ~ .menulateral{
