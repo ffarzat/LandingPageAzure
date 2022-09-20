@@ -50,35 +50,24 @@ nav a {
 }
 
 .imgprincipal{
+	background-size: cover !important;
 	width: 100%;
 	height: 700px;
+	background-image: url("banner.jpg");
 }
 
 .ola{
+	display: flex;
 	font-size: 50px;
-	position: absolute;
-	top: 202px;
-	left: 44px;
 	color: #FFFFFF;
-
+	position: relative;
+	padding: 25px;
+	font-weight: bold;
+	top: 150px;
 }
 
 .w4{
-	font-size: 50px;
-	position: absolute;
-	top: 202px;
-	left: 402px;
-	color: #1E90FF;
-
-}
-
-.nuvem{
-	font-size: 30px;
-	position: absolute;
-	top: 260px;
-	left: 78px;
-	color: #FFFFFF;
-
+	color: #8ed1fc;
 }
 
 .principal{
@@ -189,6 +178,7 @@ nav a {
 	color: #FFFFFF;
 	font-size: 25px;
 	font-weight: bold;
+	padding: 80px;
 	
 }
 
@@ -201,6 +191,7 @@ nav a {
 	padding: 0.2rem 1.2rem;
 	opacity: 0.7;
     transition: opacity 0.2s;
+    margin: 100px;
 }
 
 .fale-conosco:hover{
@@ -290,9 +281,12 @@ footer {
 		justify-content: left;
 	}
 
-	.fale-conosco{	
-	padding: 0.2rem 7.2rem;
-	
+	.ola{
+		display: none;
+	}
+
+	.fale-conosco{
+		padding: 0.2rem 2.2rem;	
 	}
 
 	.container5{
