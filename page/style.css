@@ -183,6 +183,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		left: -440px;
+		z-index: 1;
 
 	}
 	 
